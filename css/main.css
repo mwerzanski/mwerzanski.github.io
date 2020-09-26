@@ -1,8 +1,7 @@
         /* Creates our header style */
         .header {
             text-align: center;
-            background: #17c4a1;
-            color: white;
+            color: black;
             font-size: 30px;
         }
 
