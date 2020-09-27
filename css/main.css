@@ -17,8 +17,13 @@
     font-weight: bold;
 }
 
-/* Pad the top of page content so the header doesn't overwrite anything along the top of the page */
-.content {
+/* Pad the top of page content so the header isn't overwritten*/
+.header-content {
+    padding-top: 50px;
+}
+
+/* Pad the top of page content so the header doesn't overwrite any of the page content */
+.page-content {
     padding-top: 150px;
 }
 
