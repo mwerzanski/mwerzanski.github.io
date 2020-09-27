@@ -5,6 +5,10 @@
     font-size: 30px;
 }
 
+.h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
 .header2 {
     text-align: center;
     color: black;
@@ -25,9 +29,10 @@
 }
 
 nav ul {
-    padding: 0px;
+    padding: 10px;
     list-style: none;
     font-weight: bold;
+    font-size: medium;
     background-color: blue;
 }
 
