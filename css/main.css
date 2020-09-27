@@ -28,17 +28,10 @@
     padding-top: 150px;
 }
 
-/* Create a sticky nav bar */
+/* Create a sticky nav bar and header*/
 .sticky-nav {
     position: fixed;
     top: 0;
-    width: 100%
-}
-
-/* Create a sticky header */
-.sticky {
-    position: fixed;
-    top: 50px;
     width: 100%
 }
 
