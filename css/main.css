@@ -35,8 +35,13 @@
     width: 100%
 }
 
+/* Create a sticky nav bar and header*/
+.sticky {
+    position: fixed;
+    width: 100%
+}
+
 nav ul {
-    padding: 20px;
     list-style: none;
     font-weight: bold;
     font-size: medium;
