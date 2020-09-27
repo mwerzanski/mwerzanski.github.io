@@ -5,6 +5,13 @@
     font-size: 30px;
 }
 
+.header2 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /* Pad the top of page content so the header doesn't overwrite anything along the top of the page */
 .content {
     padding-top: 150px;
@@ -16,8 +23,13 @@
     top: 0;
     width: 100%
 }
+
 nav ul, footer ul {
-    font:"Arial";
     padding: 0px;
     list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
