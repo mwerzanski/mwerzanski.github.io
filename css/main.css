@@ -26,11 +26,12 @@
 }
 
 nav {
+    padding: 50px;
     overflow: hidden;
 }
 
 nav ul {
-    padding: 20px;
+    padding: 50px;
     list-style: none;
     font-weight: bold;
     font-size: medium;
