@@ -30,6 +30,7 @@ nav {
 }
 
 nav ul {
+    padding: 20px;
     list-style: none;
     font-weight: bold;
     font-size: medium;
