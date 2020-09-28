@@ -38,12 +38,16 @@
 /* Create a sticky nav bar and header*/
 .sticky {
     position: fixed;
-    top: unset;
+    
     width: 100%
 }
 
 .sticky-nav + .content {
     padding-top: 60px;
+}
+
+nav {
+    overflow: hidden;
 }
 
 nav ul {
@@ -61,6 +65,7 @@ nav ul li {
 a {
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 a:hover {
     text-decoration: underline;
