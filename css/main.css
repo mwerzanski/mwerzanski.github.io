@@ -42,6 +42,10 @@
     width: 100%
 }
 
+.sticky-nav + .content {
+    padding-top: 60px;
+}
+
 nav ul {
     list-style: none;
     font-weight: bold;
