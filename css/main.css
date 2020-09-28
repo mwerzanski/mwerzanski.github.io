@@ -38,6 +38,7 @@
 /* Create a sticky nav bar and header*/
 .sticky {
     position: fixed;
+    top: unset;
     width: 100%
 }
 
