@@ -18,32 +18,11 @@
     font-weight: bold;
 }
 
-/* Pad the top of page content so the header isn't overwritten*/
-.header-content {
-    padding-top: 50px;
-}
-
-/* Pad the top of page content so the header doesn't overwrite any of the page content */
-.page-content {
-    padding-top: 150px;
-}
-
 /* Create a sticky nav bar and header*/
 .sticky-nav {
     position: fixed;
     top: 0;
     width: 100%
-}
-
-/* Create a sticky nav bar and header*/
-.sticky {
-    position: fixed;
-    
-    width: 100%
-}
-
-.sticky-nav + .content {
-    padding-top: 60px;
 }
 
 nav {
