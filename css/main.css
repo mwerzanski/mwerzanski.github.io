@@ -67,13 +67,17 @@ ul.posts li {
 }
 
 /* Create our first box for images */
-#imagebox {
+.row {
     display: flex;
-    border: white 5px solid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 /* Create our second box for text */
-#textbox {
+.column {
     display: flex;
-    border: white 20px solid;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
 }
