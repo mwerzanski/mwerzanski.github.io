@@ -81,7 +81,5 @@ p a {
 /* Create our second box for text */
 #textbox {
     display: flexbox;
-    width: 500px;
-    height: 400px;
-    border: white 5px solid;
+    border: white 20px solid;
 }
