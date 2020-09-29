@@ -74,6 +74,9 @@ nav ul li a:active {
     display: flex;
     flex-wrap: wrap;
 }
+    .flex-grid-halves {
+        flex: 0 0 50%;
+    }
 
 .center {
     display: block;
