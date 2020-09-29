@@ -21,6 +21,10 @@
     }
 }
 
+img {
+    align-content: center;
+}
+
 .header2 {
         text-align: center;
         color: black;
