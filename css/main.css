@@ -70,11 +70,11 @@ nav ul li a:active {
 
 /* Set the flex container to be in half and items evenly spaced */
 .flex-grid-halves {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
 }
-    .flex-grid-halves {
+    .flex-grid-halves>* {
         flex: 0 0 50%;
     }
 
