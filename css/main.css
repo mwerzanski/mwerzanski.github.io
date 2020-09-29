@@ -9,19 +9,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media (max-width: 400px) {
-    .content {
-        padding-top: 150px;
-    }
+.content {
+    padding-top: 150px;
 }
 
-@media (min-width: 401px) {
-    .content {
-        padding-top: 300px;
-    }
-}
-
-img {
+.img-column {
     align-content: center;
 }
 
