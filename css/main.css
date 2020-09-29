@@ -13,10 +13,6 @@
     padding-top: 150px;
 }
 
-.img-column {
-    align-content: center;
-}
-
 .header2 {
         text-align: center;
         color: black;
@@ -94,6 +90,11 @@ nav ul li a:active {
     flex-direction: column;
     flex-basis: 100%;
     flex: 2;
+}
+
+.img-column {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .center {
