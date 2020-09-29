@@ -64,7 +64,7 @@ ul.posts li {
     list-style: none;
 }
 
-nav ul li a:active {
+a:active {
     color: rgb(137, 93, 189);
 }
 
