@@ -70,27 +70,13 @@ nav ul li a:active {
 
 /* Set the flex container to be in half and items evenly spaced */
 .flex-grid-halves {
+    width: 500px;
     display: flex;
-    justify-content: space-evenly;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-/* Create our first box for images */
-.row {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
 }
-
-/* Create our second box for text */
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 2;
-}
+    .flex-grid-halves>* {
+      flex: 0 0 50%;
+    }
 
 .img-column {
     margin-left: auto;
