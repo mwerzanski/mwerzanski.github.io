@@ -87,10 +87,11 @@ li.active {
 
 .center {
     justify-content: center;
+    display: flex;
     width: 50%;
 }
 
 .frame {
-    display: flexbox;
+    display: flex;
     vertical-align: middle;
 }
