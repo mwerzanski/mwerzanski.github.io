@@ -64,8 +64,8 @@ ul.posts li {
     list-style: none;
 }
 
-a:active {
-    color: rgb(137, 93, 189);
+nav ul li:active {
+    background-color: rgb(137, 93, 189);
 }
 
 /* Set the flex container to be in half and items evenly spaced */
