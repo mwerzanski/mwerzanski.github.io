@@ -75,7 +75,7 @@ nav ul li a:active {
     flex-wrap: wrap;
 }
     .flex-grid-halves>* {
-      flex: 0 0 50%;
+      flex: 0 0 100%;
     }
 
 .img-column {
