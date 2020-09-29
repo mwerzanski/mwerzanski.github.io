@@ -93,5 +93,12 @@ nav ul li a:active {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    flex: 1;
+    flex: 2;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
