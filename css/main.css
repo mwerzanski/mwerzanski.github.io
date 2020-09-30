@@ -9,6 +9,14 @@
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
     }
+
+    .header2 {
+        text-align: center;
+        color: rgb(51, 26, 26);
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
 /* Creates our header style */
@@ -22,30 +30,18 @@
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
     }
+
+    .header2 {
+        text-align: center;
+        color: rgb(51, 26, 26);
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
 .content {
     padding-top: 200px;
-}
-
-@media screen and (min-device-width: 500px) {
-    .header2 {
-            text-align: center;
-            color: rgb(51, 26, 26);
-            font-size: 30px;
-            font-weight: bold;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-}
-
-@media screen and (max-device-width: 500px) {
-    .header2 {
-            text-align: center;
-            color: rgb(51, 26, 26);
-            font-size: 50px;
-            font-weight: bold;
-            font-family: Arial, Helvetica, sans-serif;
-        }
 }
 
 h4 {
@@ -127,28 +123,22 @@ li span {
         display: flex;
         flex-direction: column;
     }
-
-    .grid {
-        width: 90%;
-        display: grid;
-        margin: auto;
-    }
 }
     @media only screen and (max-device-width: 499px) {
         .flex-grid-halves>* {
             flex: 0 0 100%;
-        }
-
-        .grid {
-            width: 90%;
-            display: block;
-            margin: auto;
         }
     }
 
 img {
     max-height: 400px;
     max-width: 90%;
+}
+
+.grid {
+    width: 90%;
+    display: grid;
+    margin: auto;
 }
 
 @media only screen and (max-device-width: 499px) {
