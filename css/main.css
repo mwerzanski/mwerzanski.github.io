@@ -86,10 +86,10 @@ li.active {
         }
     }
 
-.center {
+.flex-grid-halves center {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     width: 50%;
 }
 
