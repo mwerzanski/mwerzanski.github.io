@@ -93,6 +93,18 @@ li.active {
     width: 50%;
 }
 
+/* Create our first type of box */
+#first-box {
+    width: 50%;
+    border: white 5px solid;
+}
+
+/* Create our second type of box */
+#second-box {
+    width: 50%;
+    border: white 5px solid;
+}
+
 .frame {
     align-content: space-around;
 }
@@ -108,8 +120,6 @@ li.active {
         width: 50%;
     }
 }
-
-.flex-grid-halves
 
 .img-style {
     width: 100%;
