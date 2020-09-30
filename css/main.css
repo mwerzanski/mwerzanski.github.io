@@ -82,6 +82,10 @@ li span {
     width: 50%;
 }
 
+img {
+    max-height: 400px;
+}
+
 .grid img {
     display: flex;
     align-items: center;
@@ -138,8 +142,4 @@ li span {
     table {
         width: 50%;
     }
-}
-
-img {
-    max-height: 400px;
 }
