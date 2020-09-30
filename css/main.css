@@ -95,7 +95,9 @@
 }
 
 .content {
-    padding: 150px;
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Create a sticky nav bar and header*/
