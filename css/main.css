@@ -70,35 +70,27 @@ li.active {
 }
 
 /* Set the flex container to be in half and items evenly spaced */
+/* Set the flex container to be in half and items evenly spaced */
 .flex-grid-halves {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
-    @media screen and (min-width: 500px){
+    @media only screen and (min-width: 499px){
         .flex-grid-halves>* {
             flex: 0 0 50%;
         }
     }
-    @media screen and (max-width: 499px){
+    @media only screen and (max-width: 600px){
         .flex-grid-halves>* {
             flex: 0 0 100%;
         }
     }
-    
+
 /* Create our first type of box */
 #first-box {
     width: 50%;
     border: white 5px solid;
-}
-
-/* Create our second type of box */
-#second-box {
-    width: 50%;
-    border: white 5px solid;
-}
-
-.frame {
-    align-content: space-around;
 }
 
 @media only screen and (max-width: 600px) {
@@ -111,8 +103,4 @@ li.active {
     table {
         width: 50%;
     }
-}
-
-.img-style {
-    width: 100%;
 }
