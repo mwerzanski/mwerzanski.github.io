@@ -50,7 +50,7 @@
 
     /* Style the header with larger padding to fit the size of the screen */
     .header {
-        padding: 20px;
+        padding: 40px;
         text-align: center;
         color: black;
         background-color: rgb(149, 212, 236);
@@ -94,10 +94,26 @@
     }
 }
 
+/* Pad the top of each page so that content is not covered by the header and nav bar */
 .content {
-    padding-top: 150px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 200px;
+}
+
+/* Style h4 */
+h4 {
+    font: italic;
+    color: rgb(38, 38, 78);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add font styling */
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add paragraph styling */
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Create a sticky nav bar and header*/
@@ -145,7 +161,7 @@ ul.posts li {
     list-style: none;
 }
 
-/* Style span colors and padding so that a user will know which page they are actively viewing */
+/* Style span colors and padding so that a user will know which page they are actively viewing*/
 li span {
     background-color: rgb(137, 93, 189);
     padding: 10px;
