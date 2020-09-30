@@ -68,7 +68,7 @@ li span {
     background-color: rgb(137, 93, 189);
     padding: 10px;
 }
-
+/* 
 .flex-grid-halves {
     display: flex;
     justify-content: space-between;
@@ -84,17 +84,16 @@ li span {
 
 img {
     max-height: 400px;
+    max-width: 90%;
+
 }
 
 .grid img {
     display: flex;
-    margin-right: 50%;
-    margin-left: 50%;
-    margin-bottom: 50%;
-    margin-top: 50%;
-}
+    
+} */
 
-/* Set the flex container to be in half and items evenly spaced 
+
 @media screen and (min-width: 500px){
     .flex-grid-halves {
         width: 100%;
@@ -108,7 +107,7 @@ img {
         }
     }
 
-/* Set the flex container to be in half and items evenly spaced 
+
 @media screen and (max-width: 499px){
     .flex-grid-halves {
         display: flex;
@@ -121,7 +120,6 @@ img {
     display: grid;
     margin: auto;
 }
-*/
 
 .center {
     display: block;
