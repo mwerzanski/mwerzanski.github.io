@@ -94,8 +94,7 @@ li.active {
 }
 
 .frame {
-    display: flex;
-    vertical-align: middle;
+    align-content: space-around;
 }
 
 @media only screen and (max-width: 600px) {
@@ -110,6 +109,8 @@ li.active {
     }
 }
 
-img style {
-    width: 30%;
+.flex-grid-halves
+
+.img-style {
+    width: 100%;
 }
