@@ -86,16 +86,11 @@ li span {
 /* Set the flex container to be in half and items evenly spaced */
 @media screen and (max-width: 499px){
     .flex-grid-halves {
-        width: 100%;
         display: flex;
         flex-direction: column;
     }
 }
-    @media screen and (max-width: 499px){
-        .flex-grid-halves>* {
-            flex: 0 0 100%;
-        }
-    }
+
 .center {
     display: block;
     margin-left: auto;
