@@ -94,6 +94,10 @@
     }
 }
 
+.content {
+    padding: 150px;
+}
+
 /* Create a sticky nav bar and header*/
 .sticky {
     position: fixed;
