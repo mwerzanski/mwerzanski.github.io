@@ -134,15 +134,18 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Do not create a list for anything within ul li */
 ul.posts li {
     list-style: none;
 }
 
+/* Style span colors and padding so that a user will know which page they are actively viewing */
 li span {
     background-color: rgb(137, 93, 189);
     padding: 10px;
 }
 
+/* Style each grid of the flex columns to have a width of 90% and to center vertically */
 .grid {
     width: 90%;
     display: grid;
