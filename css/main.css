@@ -7,6 +7,7 @@
         background-color: rgb(149, 212, 236);
         font-size: 50px;
         font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
 
@@ -24,7 +25,7 @@
 }
 
 .content {
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 @media screen and (min-device-width: 500px) {
@@ -50,6 +51,10 @@
 h4 {
     font: italic;
     color: rgb(38, 38, 78);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -122,18 +127,24 @@ li span {
         display: flex;
         flex-direction: column;
     }
+
+    .grid {
+        width: 90%;
+        display: grid;
+        margin: auto;
+    }
 }
     @media only screen and (max-device-width: 499px) {
         .flex-grid-halves>* {
             flex: 0 0 100%;
         }
-    }
 
-.grid {
-    width: 90%;
-    display: grid;
-    margin: auto;
-}
+        .grid {
+            width: 90%;
+            display: block;
+            margin: auto;
+        }
+    }
 
 img {
     max-height: 400px;
