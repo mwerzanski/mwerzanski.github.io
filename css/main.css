@@ -82,6 +82,13 @@ li span {
     width: 50%;
 }
 
+.flex-grid-halves .grid .image {
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    display: flex;
+}
+
 /* Set the flex container to be in half and items evenly spaced 
 @media screen and (min-width: 500px){
     .flex-grid-halves {
