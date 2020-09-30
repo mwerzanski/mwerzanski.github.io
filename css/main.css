@@ -1,28 +1,60 @@
 /* Creates our header style */
-.header {
-    padding: 20px;
-    text-align: center;
-    color: black;
-    background-color: rgb(149, 212, 236);
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+@media screen and (max-device-width: 500px) {
+    .header {
+        padding: 20px;
+        text-align: center;
+        color: black;
+        background-color: rgb(149, 212, 236);
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+
+/* Creates our header style */
+@media screen and (min-device-width: 500px) {
+    .header {
+        padding: 40px;
+        text-align: center;
+        color: black;
+        background-color: rgb(149, 212, 236);
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
 .content {
     padding-top: 150px;
 }
 
-.header2 {
-        text-align: center;
-        color: rgb(51, 26, 26);
-        font-size: 30px;
-        font-weight: bold;
-    }
+@media screen and (min-device-width: 500px) {
+    .header2 {
+            text-align: center;
+            color: rgb(51, 26, 26);
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+}
+
+@media screen and (max-device-width: 500px) {
+    .header2 {
+            text-align: center;
+            color: rgb(51, 26, 26);
+            font-size: 50px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+}
 
 h4 {
     font: italic;
     color: rgb(38, 38, 78);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Create a sticky nav bar and header*/
@@ -48,6 +80,7 @@ nav ul li {
     display: inline;
     margin-right: 20px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul li a {
@@ -110,11 +143,13 @@ img {
 @media only screen and (max-device-width: 499px) {
     table {
         width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
 
 @media screen and (min-device-width: 500px) {
     table {
         width: 50%;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
