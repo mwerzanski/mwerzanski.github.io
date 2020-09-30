@@ -119,3 +119,7 @@ li span {
     display: grid;
     margin: auto;
 }
+
+img {
+    max-height: 400px;
+}
