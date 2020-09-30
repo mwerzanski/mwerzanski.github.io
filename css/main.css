@@ -82,11 +82,10 @@ li span {
     width: 50%;
 }
 
-.flex-grid-halves .grid .image {
+.grid img {
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
-    display: flex;
 }
 
 /* Set the flex container to be in half and items evenly spaced 
