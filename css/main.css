@@ -50,7 +50,7 @@
 
     /* Style the header with larger padding to fit the size of the screen */
     .header {
-        padding: 40px;
+        padding: 20px;
         text-align: center;
         color: black;
         background-color: rgb(149, 212, 236);
