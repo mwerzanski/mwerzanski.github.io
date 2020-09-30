@@ -97,3 +97,15 @@ li.active {
     display: flex;
     vertical-align: middle;
 }
+
+@media screen and (min-width: 500px) {
+    table {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    table {
+        width: 100%;
+    }
+}
