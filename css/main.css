@@ -1,5 +1,6 @@
-/* Creates our header style */
-@media screen and (max-device-width: 500px) {
+/* Style for mobile screens */
+@media screen and (max-device-width: 499px) {
+    /* Style the header with smaller padding and larger font*/
     .header {
         padding: 20px;
         text-align: center;
@@ -10,6 +11,7 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    /* Style the header to align in the center and have a font size of 50 for mobile screens */
     .header2 {
         text-align: center;
         color: rgb(51, 26, 26);
@@ -17,10 +19,36 @@
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
     }
+
+    /* Table width should be 100% for mobile screens to make it easier to see */
+    table {
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Add padding to the top and bottom of each image so that they don't overlap */
+    img {
+        max-height: 400px;
+        max-width: 90%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    /* Create a single flex column for mobile viewing */
+    .flex-grid-halves {
+        display: flex;
+        flex-direction: column;
+    }
+        /* This flex column should fill 100% of the width of the screen */
+        .flex-grid-halves>* {
+            flex: 0 0 100%;
+        }
 }
 
-/* Creates our header style */
+/* Style for desktops */
 @media screen and (min-device-width: 500px) {
+
+    /* Style the header with larger padding to fit the size of the screen */
     .header {
         padding: 40px;
         text-align: center;
@@ -31,6 +59,7 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    /* Style the header with smaller font and the most popular */
     .header2 {
         text-align: center;
         color: rgb(51, 26, 26);
@@ -38,24 +67,31 @@
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
     }
-}
 
-.content {
-    padding-top: 200px;
-}
+    /* Style the table to take up 50% of the page for a desktop screen */
+    table {
+        width: 50%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-h4 {
-    font: italic;
-    color: rgb(38, 38, 78);
-    font-family: Arial, Helvetica, sans-serif;
-}
+    /* Style 2 flex columns to show pictures and accompanying text side by side */
+    .flex-grid-halves {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-}
+        .flex-grid-halves>* {
+            flex: 0 0 50%;
+        }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
+    /* Style images to have padding on the right and left */
+    img {
+        max-height: 400px;
+        max-width: 90%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
 }
 
 /* Create a sticky nav bar and header*/
@@ -65,6 +101,7 @@ p {
     width: 100%
 }
 
+/* Style my nav bar */
 nav ul {
     padding: 10px;
     list-style: none;
@@ -77,6 +114,7 @@ nav ul {
     margin-inline-end: 0px;
 }
 
+/* Add styling to the font and display of text on the navbar */
 nav ul li {
     display: inline;
     margin-right: 20px;
@@ -84,12 +122,14 @@ nav ul li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Add styling to the font and display of text on the navbar */
 nav ul li a {
     text-decoration: none;
     color: white;
     text-align: center;
 }
 
+/* Add styling for when a user */
 nav ul li a:hover {
     text-decoration: underline;
 }
@@ -103,56 +143,8 @@ li span {
     padding: 10px;
 }
 
-
-@media screen and (min-device-width: 500px) {
-    .flex-grid-halves {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-    @media screen and (min-device-width: 500px) {
-        .flex-grid-halves>* {
-            flex: 0 0 50%;
-        }
-    }
-
-
-@media only screen and (max-device-width: 499px) {
-    .flex-grid-halves {
-        display: flex;
-        flex-direction: column;
-    }
-}
-    @media only screen and (max-device-width: 499px) {
-        .flex-grid-halves>* {
-            flex: 0 0 100%;
-        }
-    }
-
-img {
-    max-height: 400px;
-    max-width: 90%;
-    padding-right: 5%;
-    padding-left: 5%;
-}
-
 .grid {
     width: 90%;
     display: grid;
     margin: auto;
-}
-
-@media only screen and (max-device-width: 499px) {
-    table {
-        width: 100%;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-}
-
-@media screen and (min-device-width: 500px) {
-    table {
-        width: 50%;
-        font-family: Arial, Helvetica, sans-serif;
-    }
 }
