@@ -116,6 +116,7 @@ li span {
 
 .grid {
     width: 90%;
-    display: block;
+    display: grid;
     margin: auto;
+    
 }
