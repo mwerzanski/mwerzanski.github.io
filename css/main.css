@@ -133,6 +133,8 @@ li span {
 img {
     max-height: 400px;
     max-width: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .grid {
