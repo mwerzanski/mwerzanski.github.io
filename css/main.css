@@ -66,6 +66,7 @@ ul.posts li {
 
 li.active {
     background-color: rgb(137, 93, 189);
+    padding: 5px;
 }
 
 /* Set the flex container to be in half and items evenly spaced */
