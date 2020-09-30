@@ -88,8 +88,7 @@ li.active {
 
 .flex-grid-halves center {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     width: 50%;
 }
 
