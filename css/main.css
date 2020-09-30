@@ -108,7 +108,7 @@ img {
     }
 }
 
-@media screen and (min-width: 499px) {
+@media screen and (min-device-width: 499px) {
     table {
         width: 50%;
     }
