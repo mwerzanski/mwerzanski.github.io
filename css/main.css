@@ -69,7 +69,20 @@ li span {
     padding: 10px;
 }
 
-/* Set the flex container to be in half and items evenly spaced */
+.flex-grid-halves {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid {
+    flex: 1;
+}
+
+.flex-grid-halves .grid {
+    width: 50%;
+}
+
+/* Set the flex container to be in half and items evenly spaced 
 @media screen and (min-width: 500px){
     .flex-grid-halves {
         width: 100%;
@@ -83,13 +96,20 @@ li span {
         }
     }
 
-/* Set the flex container to be in half and items evenly spaced */
+/* Set the flex container to be in half and items evenly spaced 
 @media screen and (max-width: 499px){
     .flex-grid-halves {
         display: flex;
         flex-direction: column;
     }
 }
+
+.grid {
+    width: 90%;
+    display: grid;
+    margin: auto;
+}
+*/
 
 .center {
     display: block;
@@ -112,12 +132,6 @@ li span {
     table {
         width: 50%;
     }
-}
-
-.grid {
-    width: 90%;
-    display: grid;
-    margin: auto;
 }
 
 img {
