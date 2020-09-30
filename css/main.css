@@ -3,6 +3,7 @@
     /* Style the header with smaller padding and larger font*/
     .header {
         padding: 20px;
+        padding-bottom: 20px;
         text-align: center;
         color: black;
         background-color: rgb(149, 212, 236);
