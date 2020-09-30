@@ -88,8 +88,10 @@ img {
 
 .grid img {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-right: 50%;
+    margin-left: 50%;
+    margin-bottom: 50%;
+    margin-top: 50%;
 }
 
 /* Set the flex container to be in half and items evenly spaced 
